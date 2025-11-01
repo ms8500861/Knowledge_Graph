@@ -1,0 +1,15 @@
+openai
+graphdatascience
+retry
+langchain
+streamlit
+streamlit-chat
+streamlit-chat-media
+numpy
+pandas
+plotly
+altair
+python-dotenv
+langchain-community
+langchain-openai
+langchain-neo4j
