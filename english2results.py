@@ -1,6 +1,10 @@
-from langchain.chains import GraphCypherQAChain
+# from langchain.chains import GraphCypherQAChain
+# from langchain_community.chains import GraphCypherQAChain
+from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
+
 from langchain_community.graphs import Neo4jGraph
-from langchain.prompts.prompt import PromptTemplate
+# from langchain.prompts.prompt import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_openai import AzureChatOpenAI
 from retry import retry
 from timeit import default_timer as timer
